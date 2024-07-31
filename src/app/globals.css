@@ -2,32 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.nav {
+  @apply relative ;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.nav::after {
+  @apply content-[''] absolute -translate-x-2/4 w-0 h-0.5 bg-yellow-500 transition-[width] duration-[0.3s] ease-[ease-in-out] left-1/4 -bottom-0.5;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.nav:hover::after {
+  @apply w-6/12;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.ellipse{
+  @apply relative w-6 h-12 outline outline-2 rounded-[50%] flex justify-center items-center text-center p-5 shadow-xl rotate-12 ;
+}
+
+.social{
+  @apply -rotate-12;
+}
+
+.yellowLine{
+  @apply relative inline-block;
+}
+
+.yellowLine::after{
+  @apply content-[''] absolute w-full h-[0.3em] bg-yellow-400 z-[-1] left-0 bottom-0;
+
 }

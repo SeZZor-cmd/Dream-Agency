@@ -1,0 +1,16 @@
+.yellowLine{
+  @apply relative inline-block;
+}
+
+.yellowLine::after{
+    @apply content-[''] absolute w-full h-[0.3em] bg-yellow-400 z-[-1] left-0 bottom-0;
+
+}
+
+.dottedCircle{
+  @apply absolute lg:h-[550px] lg:left-[-275px] lg:top-[1380px] md:left-[-200px] md:h-[400px] md:top-[1665px];
+}
+
+.blob{
+  @apply absolute h-[550px] left-[-275px] top-[1380px] md:left-[-200px] md:h-[400px] md:top-[1665px];
+}

@@ -1,0 +1,10 @@
+.node-one{
+  position: absolute;
+  z-index: 0;
+}
+
+.node-one{
+  top: -150px;
+  right: -150px;
+  z-index: 2;
+}

@@ -1,0 +1,24 @@
+.container{
+  @apply text-center p-[50px] ;
+}
+
+.container .h2 {
+  @apply text-5xl font-bold mb-2;
+}
+
+.container .h3{
+  @apply text-2xl mb-8;
+}
+
+.yellowLine{
+  @apply relative inline-block;
+}
+
+.yellowLine::after{
+    @apply content-[''] absolute w-full h-[0.3em] bg-yellow-400 z-[-1] left-0 bottom-0;
+
+}
+
+.rectangle{
+  @apply absolute lg:h-[450px] lg:left-[-300px] z-[-1] opacity-50 md:h-[300px] md:left-[-200px] md:top-[1300px];
+}

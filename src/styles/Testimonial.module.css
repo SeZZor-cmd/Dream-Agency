@@ -1,0 +1,8 @@
+.yellowLine{
+  @apply relative inline-block;
+}
+
+.yellowLine::after{
+    @apply content-[''] absolute w-full h-[0.3em] bg-yellow-400 z-[-1] left-0 bottom-0;
+
+}

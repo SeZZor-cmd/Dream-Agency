@@ -12,8 +12,18 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          'hero-pattern': "url('/Hero-Background.svg')",
       },
     },
+    keyframes:{
+      underlineHalf:{
+        '0%':{width : '0%'},
+        '100%':{width : '100%'}
+      },
+    },
+    animation:{
+      underlineHalf: 'underlineHalf 0.3s ease-in-out forwards',
+    }
   },
   plugins: [],
 };

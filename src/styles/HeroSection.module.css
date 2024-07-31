@@ -1,0 +1,20 @@
+.yellowLine{
+  @apply relative inline-block;
+}
+
+.yellowLine::after{
+    @apply content-[''] absolute w-full h-[0.3em] bg-yellow-400 z-[-1] left-0 bottom-0;
+
+}
+
+.dottedCircle {
+  @apply absolute object-right z-[-1] lg:right-[125px] lg:top-[200px] lg:h-[550px] md:right-[-40px] md:top-[250px] md:h-[400px];
+}
+
+.ellipse{
+  @apply absolute rotate-90 lg:right-[-800px] lg:top-[50px] z-[-1] md:right-[-420px] md:top-[70px] md:h-[550px];
+}
+
+.blob{
+  @apply absolute rotate-90 top-[200px] right-[125px] z-[-1] h-[550px] md:right-[-40px] md:top-[250px] md:h-[400px];
+}
