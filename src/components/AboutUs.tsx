@@ -36,10 +36,10 @@ export default function AboutUs() {
               About Us Fake or <span className={styles.yellowLine}>Real</span>
             </h2>
             <p className="mt-4 text-purple-950">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
             <p className="mt-4 text-purple-950">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
             <button className="mt-8 bg-purple-950 text-white py-2 px-6 rounded-lg hover:bg-purple-700 transition">
               Get Started
