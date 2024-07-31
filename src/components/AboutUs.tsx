@@ -10,7 +10,7 @@ export default function AboutUs() {
         <div className="space-x-8 max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start">
           <div className="w-full md:w-1/2 p-8 flex justify-center order-1 md:order-1 relative">
             <Image
-              src="/Hero-Img.png"
+              src="/image/Hero-Img.png"
               alt="Dream Agency"
               className="object-none object-right relative z-10 lg:-left-20 md:-left-0 sm:-left-0"
               width={650}
